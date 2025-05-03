@@ -1,0 +1,254 @@
+@font-face {
+    font-family: ZenMaruGothicMedium;
+    src: url('./font/ZenMaruGothic-Medium.ttf');
+}
+@font-face {
+    font-family: ZenMaruGothicBold;
+    src: url('./font/ZenMaruGothic-Bold.ttf');
+}
+/* defautl */
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*:hover {
+    transition: all .5s;
+}
+.table td, .table th {
+    vertical-align: middle
+}
+p {}
+a {
+    color: var(--color-text);
+    transition: all .5s;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: var(--background-main);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    max-width: 100%;
+}
+.small, small {
+    font-size: .7em;
+}
+.pc {
+    display: none;
+}
+.mobile {
+    display: block;
+}
+.en {
+    font-family: "ZenMaruGothicBold";
+}
+.font-en {
+    font-family: "ZenMaruGothicBold";
+}
+.font-en-mid {
+    font-family: "ZenMaruGothicMedium";
+}
+.font-en-bold {
+    font-family: "ZenMaruGothicMedium";
+}
+.color-pink {
+    color: #fc8468;
+}
+.color-blue {
+    color: #79c5d4;
+}
+.color-purple {
+    color: #8c8cc5;
+}
+html {
+    font-size: 16px;
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: url("../images/bg-mobile.webp");
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    z-index: -999;
+}
+body {
+    color: black;
+    position: relative;
+    font-size: 16px;
+    font-family: "dnp-shuei-gothic-gin-std", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    letter-spacing: 0.08rem;
+    line-height: 2;
+    background-color: white;
+    font-feature-settings: "palt";
+}
+.btn {
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+    border-radius: 40px;
+    margin: 3rem auto 0 auto;
+    letter-spacing: 2px;
+    width: 100%;
+    font-weight: 600;
+}
+.btn-m {
+    max-width: 200px;
+    font-size: 18px;
+    padding: 8px 10px 10px;
+}
+.btn-l {
+    max-width: 400px;
+    font-size: 20px;
+    padding: 15px 10px 17px;
+}
+.btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+@keyframes slideup {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+@keyframes slideupSecond {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(calc(-100% - 30%));
+    }
+}
+@keyframes slideupThird {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(calc(-100% - 120%));
+    }
+}
+@keyframes slideupFourth {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(calc(-100% - 35%));
+    }
+}
+@keyframes slideupFifth {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(1em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+footer {
+    background-color: #00000096;
+    padding: 5rem 0 3rem;
+    color: white;
+}
+footer .logo {
+    margin-bottom: 2rem;
+}
+footer .logo img {
+    width: 200px;
+}
+footer li {
+    margin-bottom: 2px;
+}
+footer i {
+    color: #808080;
+    padding-right: 0.4rem;
+}
+footer li a {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+footer li ul.lowerーlayer {
+    margin-left: 1rem;
+    margin-top: 2px;
+}
+footer .sub ul {
+    border-top: 1px solid #888888;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+footer .sub li a{
+    font-size: 0.8rem;
+}
+footer p.copyright {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.8rem;
+}
+@media (min-width: 768px) {
+    .pc {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    html {
+        font-size: 16px;
+    }
+    .bg {
+        background-image: url("../images/bg.webp");
+    }
+    footer .sub ul {
+        border-top: none;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    body {
+        font-size: 14px;
+        /* background: url('../images/bg_mobile.png');
+        background-size: contain;
+    background-position-y: -10px;
+    background-repeat: repeat-y; */
+    }
+    .container {
+        padding: 0 2rem;
+    }
+}

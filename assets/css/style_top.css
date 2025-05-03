@@ -1,0 +1,403 @@
+main section:nth-child(n+2) {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.container-right {
+    background-color: #ffffff;
+    opacity: 0.9;
+    margin-left: 10%;
+    border-radius: 1rem 0 0 1rem;
+}
+.container-right:last-child {
+    background-color: #fc8468;
+    opacity: 1;
+    margin-left: 10%;
+    border-radius: 1rem 0 0 1rem;
+}
+.container-left {
+    background-color: #ffffff;
+    opacity: 0.9;
+    margin-right: 10%;
+    border-radius: 0 1rem 1rem 0;
+}
+.css-container {
+    padding: 60px 30px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container-center {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+h1 {
+    font-weight: 600;
+}
+.group-title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+.group-title h3 {
+    color: black;
+    font-size: 4rem;
+    font-family: "ZenMaruGothicBold";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    margin-top: -6.5rem;
+}
+.group-title p {
+    font-weight: 600;
+}
+#banner {
+    text-align: center;
+    height: 100vh;
+    height: 100dvh;
+    position: relative;
+}
+#banner .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+#banner h1 {
+    font-size: 56px;
+    position: relative;
+}
+#banner h1 img {
+    width: 50px;
+}
+#banner h1 img:first-child {
+    margin-top: -70px;
+}
+#banner h1 img:last-child {
+    margin-bottom: -35px;
+}
+#banner h1::before {
+    content: "";
+    background-image: url('../images/dau_phay_left.png');
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#banner h1::after {
+    content: "";
+    background-image: url('../images/dau_phay_right.png');
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    bottom: -10px;
+    right: -70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#banner .sub-title {
+    font-size: 1.2rem;
+}
+#banner .scroll {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#banner .scroll img {
+    width: 30px;
+    height: 70px;
+    margin-top: 80px;
+}
+#news .new-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+#news .new-item p.date {
+    font-family: "ZenMaruGothicBold";
+}
+#banner-book .css-container {
+    padding: 0 0 2rem;
+}
+#description {
+    text-align: center;
+    line-height: 2.5;
+    font-size: 1.2rem;
+    margin-top: 100px;
+}
+#philosophy {}
+#philosophy .content {
+    max-width: 800px;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#philosophy .content p {
+    font-size: 1rem;
+}
+#philosophy .our-mission .title-absolute {
+    position: absolute;
+    top: -45px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 40pt;
+}
+#philosophy .our-mission .title-absolute h3 {
+    padding: 0 20px;
+    font-size: 40pt;
+    position: relative;
+    background: white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    display: inline-block;
+}
+#service .content p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#service .list-service {
+    padding-bottom: 2rem;
+}
+#service .list-service .item-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#service .list-service .item-service .content {
+    border-radius: 20px;
+    padding: 2.8rem 2.5rem;
+}
+#service .list-service .item-service .content p.number {
+    color: white;
+    text-align: center;
+    font-family: "ZenMaruGothicMedium";
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    opacity: 0.5;
+    margin-top: -1rem;
+}
+#service .list-service .item-service .content h4 {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#service .list-service .item-service .content p {
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+}
+#service .list-service .item-service .img img {
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+#service .list-service .item-service:first-child {
+    background-color: #fc8468;
+}
+#service .list-service .item-service:nth-child(2) {
+    background-color: #79c5d4;
+}
+#service .list-service .item-service:nth-child(3) {
+    background-color: #8c8cc5;
+}
+#service .btn-m {
+    margin: 3rem auto 0;
+}
+#case-study .list-studies {
+    width: 90%;
+    margin: 0 auto;
+}
+#newsletter {
+    text-align: center;
+}
+#newsletter input {
+    background-color: transparent;
+    border: 1px solid black;
+    height: 70px;
+    width: 90%;
+}
+#newsletter input::placeholder {
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+}
+#contact .content {
+    text-align: center;
+    font-size: 1.3rem;
+}
+@media (min-width: 768px) {
+    main section:nth-child(n+2) {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .container-right {
+        margin-left: 20%;
+        border-radius: 2rem 0 0 2rem;
+    }
+    .container-left {
+        margin-right: 20%;
+        border-radius: 0 2rem 2rem 0;
+    }
+    .container-center {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    #news .new-item .content-new {
+        display: flex;
+    }
+    #news .new-item .content-new p:first-child {
+        margin-right: 2rem;
+    }
+    #news .new-item i {
+        margin-right: 0.5rem;
+    }
+    #news .new-item:hover i {
+        margin-right: 0;
+        transition: all .5s;
+    }
+    #service .list-service .item-service .img {
+        margin-left: -3rem;
+    }
+    #newsletter input {
+        background-color: transparent;
+        border: 1px solid black;
+        height: 70px;
+        width: 500px;
+    }
+}
+@media (max-width: 767.98px) {
+    #banner h1::before {
+        width: 20px;
+        height: 18px;
+        left: -30px;
+    }
+    #banner h1::after {
+        width: 20px;
+        height: 18px;
+        right: -30px;
+        bottom: -5px;
+    }
+    #banner h1 {
+        font-size: 1.8rem;
+    }
+    #banner .sub-title {
+        font-size: 1rem;
+    }
+    #description {
+        line-height: unset;
+        font-size: 1.1rem;
+        text-align: start;
+    }
+    .group-title {
+        margin-bottom: 30px;
+    }
+    .group-title h3 {
+        font-size: 2.5rem;
+        margin-top: -5.5rem;
+    }
+    #news .new-item p.date {
+        margin-bottom: 0.3rem;
+    }
+    #service .list-service .item-service {
+        flex-direction: column;
+    }
+    #service .list-service .item-service .img {
+        width: 100%;
+        margin-top: -20px;
+        padding: 0 30px;
+    }
+    #service .list-service .item-service .content {
+        padding: 10px 30px 40px;
+    }
+    #newsletter input {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    br.mobile {
+        display: block;
+    }
+    .showmenu-pc {
+        display: none;
+    }
+    .showmenu-mobile {
+        display: block;
+    }
+    .vision-mobile {
+        display: block;
+    }
+    .vision-pc {
+        display: none;
+    }
+    #banner h1 img:first-child {
+        margin-top: -25px;
+    }
+    #banner h1 img:last-child {
+        margin-bottom: -10px;
+    }
+    #description br {
+        display: none;
+    }
+    #news .new-item .content-new {
+        display: flex;
+        flex-direction: column;
+        width: 93%;
+    }
+    #news .list-new {
+        padding: 0;
+    }
+    #philosophy .our-mission .title-absolute {
+        top: -55px;
+    }
+    #philosophy .our-mission .title-absolute h3 {
+        font-size: 20px;
+    }
+    #service .list-service .item-service:first-child .content::before {
+        top: -35px;
+        left: calc(50% - 20px);
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 40px solid #F39C83;
+    }
+    #service .list-service .item-service:nth-child(2) .content::before {
+        top: -35px;
+        left: calc(50% - 20px);
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 40px solid #8ECBDA;
+    }
+    #service .list-service .item-service:nth-child(3) .content::before {
+        top: -35px;
+        right: 40px;
+        left: calc(50% - 20px);
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 40px solid #9999BD;
+    }
+    #service .list-service .item-service .content h4 {
+        font-size: 23px;
+    }
+    #contact .css-container::before {
+        display: none;
+    }
+
+    #service .content.text-center p {
+        text-align: justify;
+    }
+    #service .content.text-center p br {
+        display: none
+    }
+}

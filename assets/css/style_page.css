@@ -1,0 +1,575 @@
+.page-title {
+    text-align: center;
+    padding: 8rem 0 3rem;
+}
+.page-title h3 {
+    font-size: 3rem;
+    font-family: "ZenMaruGothicBold";
+    letter-spacing: 0.2rem;
+}
+main {
+    background-color: #ffffff9c;
+    padding-bottom: 5rem;
+}
+.container-100 {
+    width: 100%;
+}
+#news-index .tag, #blog-index .tag {
+    margin-bottom: 3rem;
+}
+#news-index .tag .tag-item, #blog-index .tag .tag-item {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+#news-index .tag .tag-item a, #blog-index .tag .tag-item a {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 0.2rem 1rem 0.2rem 1.1rem;
+    font-size: 0.8rem;
+}
+#news-index .news-article {
+    border-bottom: 1px solid #9D9D9D;
+    padding: 2rem;
+}
+#blog-index .content {
+    padding: 1rem;
+}
+#news-index .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#news-index .item p.title {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+#blog-index .item p.title {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+#news-index p:first-child, #blog-index p:first-child {
+    font-family: "ZenMaruGothicBold";
+}
+#news-index .item .content {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+}
+#news-page article, #blog-page article {
+    margin-bottom: 4rem;
+}
+#news-page article .post-title, #blog-page article .post-title {
+    margin-bottom: 4rem;
+}
+#news-page article .post-title p.date, #blog-page article .post-title p.date {
+    font-family: "ZenMaruGothicBold";
+    margin-bottom: 1rem;
+}
+#news-page article .text, #blog-page article .text {
+    overflow-wrap: break-word;
+}
+#news-page .archive .post-title {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #9D9D9D;
+}
+#news-page .archive, #blog-page .archive {
+    margin-bottom: 2rem;
+}
+#blog-page .archive .post-title {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+#news-page .head, #blog-page .head {
+    margin-bottom: 1rem;
+}
+#news-page .archive p.date, #blog-page .archive p.date {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+#news-page .archive p.head, #blog-page .archive p.head {
+    font-size: 1.2rem;
+    text-align: center;
+}
+#news-page .archive h2 {
+    font-size: 1rem;
+}
+#blog-page .archive h2 {
+    font-size: 1rem;
+}
+#news-page .related-post {
+    margin-top: 3rem;
+}
+#news-page .text a, #blog-page .text a {
+    text-decoration: underline;
+}
+#blog-index .item .image {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 5/3;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+#blog-index .item {
+    margin-bottom: 1rem;
+}
+#blog-page article .image {
+    margin-bottom: 1rem;
+}
+#blog-page .archive .image {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 5/3;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+#blog-page .item {
+    margin-bottom: 1rem;
+}
+#news-page article h2 {
+    line-height: 1.8;
+}
+#blog-page article h2 {
+    line-height: 1.8;
+}
+#philosophy section {
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+}
+#philosophy .container-right {
+    margin-left: 10%;
+    border-radius: 1rem 0 0 1rem;
+    border-right: none;
+}
+#philosophy .container-left {
+    margin-right: 10%;
+    border-radius: 0 1rem 1rem 0;
+    border-left: none;
+}
+#philosophy .css-container-2 {
+    max-width: 1000px;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+}
+#philosophy section img {
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+#philosophy section .txt {
+    text-align: center;
+}
+#philosophy section h4 {
+    font-family: "ZenMaruGothicMedium";
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #fc8468;
+}
+#philosophy section p.ja {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+#philosophy section p.en {
+    font-family: "ZenMaruGothicMedium";
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+#philosophy section.values p.ja {
+    margin-bottom: 0;
+}
+#philosophy #description {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    padding: 2rem;
+}
+#about .page-nav .nav-title {
+    width: 100%;
+    max-width: 400px;
+}
+#about .page-nav .nav-title a {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    color: white;
+    border-radius: 2rem;
+    margin: 0.2rem;
+    background-color: #76C8D5;
+}
+#about .page-nav .nav-title i {
+    padding-left: 0.5rem;
+    opacity: 0.5;
+}
+#about section {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+#about .group-title h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#about section .logo {
+    width: 60%;
+    max-width: 300px;
+    margin: 1.5rem auto 4rem;
+}
+#about .content dd {
+    margin-bottom: 1rem;
+}
+#about #ceo-profile .content dt {
+    padding-bottom: 1rem;
+}
+#about #ceo-profile .content dd {
+    font-size: 0.85rem;
+}
+#about #ceo-profile .photo {
+    text-align: center;
+}
+#about #ceo-profile .photo img {
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+#about #ceo-profile p.name {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#about #ceo-profile p.name span {
+    font-size: 1rem;
+}
+#about #ceo-profile p.position {}
+#about #ceo-profile .borderbottom {
+    border-bottom: 1px solid #9D9D9D;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+#about #ceo-profile .borderbottom:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+#about #ceo-profile dl p.head {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+#about #ceo-profile dl p.head:nth-of-type(n+2) {
+    margin-top: 1rem;
+}
+#about #ceo-profile dl ul {
+    list-style: disc;
+    padding-left: 1rem;
+}
+#about #books h5 {
+    font-size: 2rem;
+}
+#about #books p.sub-title {}
+#about #books .row {
+    border-bottom: 1px solid #9D9D9D;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+#about #books .row:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+#about #books .image {
+    width: 80%;
+    max-width: 230px;
+    margin: 0 auto;
+}
+#about #books .image img {
+    box-shadow: 1rem 1rem 1rem #9D9D9D;
+}
+#about #books .text .info {
+    padding: 2em 0;
+}
+#about #books .buy-list {
+    margin-top: 3rem;
+}
+#about #books .buy-list .buy-link {
+    width: 200px;
+}
+#about #books .buy-list .buy-link a {
+    text-align: center;
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #76C8D5;
+    border-radius: 2rem;
+    margin: 0.2rem;
+}
+#about #books .buy-list .buy-link i {
+    opacity: 0.5;
+    margin-right: -0.5rem;
+}
+#qa section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#qa section p {
+    margin-bottom: 0;
+}
+#qa .question {
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+#qa .question::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: -12px;
+    border-top: 12px solid #000000;
+    border-right: 12px solid #000000;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid transparent;
+}
+#qa .answer {
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding: 1rem 2rem;
+    background-color: #8ECBDA;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+#qa .answer::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    right: -12px;
+    border-top: 12px solid #8ECBDA;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #8ECBDA;
+}
+#casestudy .page-nav .nav-title {
+    width: 100%;
+    max-width: 400px;
+}
+#casestudy .page-nav .nav-title a {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    color: white;
+    border-radius: 2rem;
+    margin: 0.2rem;
+}
+#casestudy .page-nav .nav-title i {
+    padding-left: 0.5rem;
+    opacity: 0.5;
+}
+#casestudy .page-nav .nav-01 a {
+    background-color: #fc8468;
+}
+#casestudy .page-nav .nav-02 a {
+    background-color: #8ECBDA;
+}
+#casestudy .page-nav .nav-03 a {
+    background-color: #9999BD;
+}
+#casestudy .page-nav .no-active a {
+    background-color: #FFF;
+    color: #AFAFAF;
+    opacity: 0.9;
+}
+#casestudy .tag {
+    margin-bottom: 1rem;
+}
+#casestudy .tag .tag-item {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+#casestudy .tag .tag-item p {
+    display: inline-block;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 0.2rem 1rem 0.2rem 1.1rem;
+    font-size: 0.8rem;
+}
+#casestudy main section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#casestudy main section article {
+    padding: 3rem 0;
+    border-top: 1px solid #9D9D9D;
+}
+#casestudy main section article h2 {
+    margin-bottom: 1rem;
+}
+#casestudy main section article .img {
+    background-color: #FFFFFF;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 1rem;
+}
+#casestudy main section article img {
+    width: 80%;
+    margin: 1rem 0;
+}
+#contact section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#contact input {
+    width: 100%;
+    height: 60px;
+    max-width: 400px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+#contact .form-free input {
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+}
+#contact .form-free input {
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+}
+#side main section {
+    padding-top: 2rem;
+}
+#side main section dl {
+    padding-top: 2rem;
+    font-size: 0.9rem;
+}
+#side main section dt {
+    margin-top: 1rem;
+    font-weight: 400;
+}
+#side main p.head {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+#side main p {
+    font-size: 0.9rem;
+}
+#side .page-title h3 {
+    font-size: 2rem;
+}
+@media (min-width: 768px) {
+    #news-index .list {
+        padding: 0 20px;
+    }
+    #news-index .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #news-index .item .content {
+        display: flex;
+    }
+    #news-index a .item i {
+        margin-right: 0.5rem;
+    }
+    #news-index a:hover .item i {
+        margin-right: 0;
+        transition: all .5s;
+    }
+    #news-page aside a:hover {
+        text-decoration: underline;
+    }
+    #blog-page .archive .post-title {
+        border-bottom: 1px solid #9D9D9D;
+    }
+    #blog-page .archive .post-title:last-child {
+        border-bottom: none;
+    }
+    #blog-page article {
+        padding-right: 3rem;
+    }
+    #about .content dt {
+        width: 15%;
+        float: left;
+    }
+    #about .content dd {
+        margin-left: 15%;
+    }
+    #qa .qa-set {
+        max-width: 750px;
+    }
+    #qa .qa-set:nth-child(2n) {
+        float: right;
+    }
+    #casestudy .page-nav .nav-title {
+        width: 33%;
+    }
+    #casestudy main section article .img {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    #casestudy main section article img {
+        max-width: 500px;
+    }
+    #casestudy main section article .content p {
+        max-width: 800px;
+        margin: 2rem auto;
+    }
+}
+@media (max-width: 767.98px) {
+    .page-title {
+        text-align: center;
+        padding: 5rem 0 1rem;
+    }
+    .page-title h3 {
+        font-size: 2rem;
+    }
+    #news-index .news-article {
+        padding: 1rem;
+    }
+    #philosophy .css-container-2 {
+        padding: 2rem;
+    }
+    #philosophy section img {
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    #philosophy section .txt {
+        text-align: start;
+    }
+    #philosophy section h4 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    #philosophy section p.ja {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    #philosophy section p.en {
+        font-size: 0.8rem;
+    }
+    #philosophy section.values .txt {
+        text-align: center;
+    }
+    #philosophy #description {
+        font-size: 1rem;
+    }
+}

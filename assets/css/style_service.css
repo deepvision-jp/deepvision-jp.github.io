@@ -1,0 +1,340 @@
+#service-index section {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 5% 10%;
+    background-color: #ffffff;
+    opacity: 0.9;
+    border-radius: 1rem;
+    border: 2px solid #fc8468;
+}
+#service-index section.s2 {
+    border-color: #79c5d4;
+}
+#service-index section.s3 {
+    border-color: #8c8cc5;
+}
+#service-index section .head-title {
+    text-align: center;
+}
+#service-index section .head-title p.number {
+    font-family: "ZenMaruGothicMedium";
+    letter-spacing: 1rem;
+    line-height: 1;
+    font-size: 6rem;
+}
+#service-index section .img {
+    width: 90%;
+    max-width: 500px;
+    margin: 2.5rem auto;
+}
+#service-page .page-nav {
+    margin-bottom: 2.5rem;
+}
+#service-page .page-nav .main-menu .nav-title a {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    color: white;
+    border-radius: 2rem;
+    margin: 0.2rem;
+}
+#service-page .page-nav .main-menu {
+    margin-bottom: 0.5rem;
+}
+#service-page .page-nav .nav-title{
+    min-width: 310px;
+}
+#service-page .page-nav .main-menu .nav-title:nth-child(1) a {
+    background-color: #fbac9a;
+}
+#service-page .page-nav .main-menu .nav-title:nth-child(2) a {
+    background-color: #a9d6df;
+}
+#service-page .page-nav .main-menu .nav-title:nth-child(3) a {
+    background-color: #b1b1d1;
+}
+#service-page .page-nav .main-menu .nav-title.no-active a {
+    background-color: #FFF;
+    color: #AFAFAF;
+    opacity: 0.9;
+}
+.service-01 .page-nav .sub-menu .nav-title a {
+    background-color: #fc8468;
+}
+.service-02 .page-nav .sub-menu .nav-title a {
+    background-color: #79c5d4;
+}
+.service-03 .page-nav .sub-menu .nav-title a {
+    background-color: #8c8cc5;
+}
+#service-page .page-nav .sub-menu .nav-title a {
+    font-size: 0.9rem;
+    text-align: center;
+    display: block;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    color: white;
+    border-radius: 2rem;
+    margin: 0.2rem;
+}
+#service-page .page-nav .main-menu .nav-title i {
+    padding-left: 0.5rem;
+    opacity: 0.6;
+}
+#service-page .page-nav .sub-menu .nav-title i {
+    padding-left: 0.5rem;
+    opacity: 0.5;
+}
+#service-page .head-title p.number {
+    font-family: "ZenMaruGothicMedium";
+    letter-spacing: 1rem;
+    line-height: 1;
+    font-size: 6rem;
+    text-align: center;
+}
+#service-page .head-title h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+#service-page .head-title .img {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+#service-page section {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+#service-page section.container-right {
+    margin-left: 10%;
+    border-radius: 1rem 0 0 1rem;
+    border-right: none;
+}
+#service-page section.container-left {
+    margin-right: 10%;
+    border-radius: 0 1rem 1rem 0;
+    border-left: none;
+}
+#service-page section.container-right .head {
+    border-radius: 0.8rem 0 0 0;
+}
+#service-page section.container-left .head {
+    border-radius: 0 0.8rem 0 0;
+}
+#service-page main .program .content {
+    width: 100%;
+    max-width: 1000px;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #9D9D9D;
+}
+#service-page main .program .content:last-of-type {
+    padding: 3rem 2rem 0;
+    margin: 0 auto;
+    border-bottom: none;
+}
+#service section .image {
+    text-align: center;
+}
+#service section img {
+    width: 80%;
+    max-width: 400px;
+}
+#service-page section .head {
+    color: white;
+    text-align: center;
+}
+.service-01 section {
+    border: 2px solid #fc8468;
+}
+.service-01 section .head {
+    background-color: #fc8468;
+}
+.service-02 section {
+    border: 2px solid #79c5d4;
+}
+.service-02 section .head {
+    background-color: #79c5d4;
+}
+.service-03 section {
+    border: 2px solid #8c8cc5;
+}
+.service-03 section .head {
+    background-color: #8c8cc5;
+}
+#service-page section.program h3 {
+    font-size: 2.4rem;
+    padding: 0 0 2rem 0;
+}
+#service-page section.program .head p.sub {
+    font-family: "ZenMaruGothicMedium";
+    padding: 1rem 0 0;
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+#service-page section.program h4 {
+    font-size: 1.8rem;
+    padding: 0 0 2rem 0;
+}
+.service-01 section.program h4 {
+    color: #fc8468;
+}
+.service-02 section.program h4 {
+    color: #79c5d4;
+}
+.service-03 section.program h4 {
+    color: #8c8cc5;
+}
+#service-page section.program .content:last-child {
+    border-bottom: none;
+}
+#service-page section.program .layout-02 p {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #9D9D9D;
+    margin: 0.5rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+#service-page main .program .layout-01 li {
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+#service-page main .program .layout-01 li i {
+    opacity: 0.4;
+}
+#service-page main .program .layout-01 li i:nth-child(1) {
+    margin-left: -1rem;
+}
+#service-page main .program .css-container {
+    text-align: center;
+}
+#service-page main .program .layout-01 ul {
+    display: inline-block;
+    text-align: left;
+}
+#service-page main .program .layout-04 ul {
+    display: inline-block;
+    text-align: left;
+    list-style: disc;
+    padding-left: 0.8rem;
+}
+#service-page main .program .layout-04 li {
+    padding-bottom: 0.5rem;
+}
+#service-page main .program .layout-03 {
+    text-align: center;
+}
+#service-page main .program .layout-03 dl dt {
+    font-size: 1.2rem;
+}
+#service-page main .program .layout-03 dl dd {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    margin-bottom: 2rem;
+}
+.service-01 main .program .layout-03 dl dd {
+    border-bottom: 3px solid #fc8468;
+}
+.service-02 main .program .layout-03 dl dd {
+    border-bottom: 2px solid #79c5d4;
+}
+.service-03 main .program .layout-03 dl dd {
+    border-bottom: 2px solid #8c8cc5;
+}
+#service-page main .program .layout-05 p.name {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+#service-page main .program .layout-05 p {
+    font-size: 0.8rem;
+}
+#service-page main .program .layout-05 .book {
+    padding: 2rem 0;
+}
+#service-page main .program .layout-05 .img {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+@media (min-width: 768px) {
+    #service-page .page-nav .sub-menu {
+        font-size: 0.9rem;
+    }
+    #service-page .page-nav .sub-menu .nav-title {
+        width: auto;
+    }
+    #service-page .page-nav .nav-01.no-active .main-menu .nav-title a:hover {
+        border: 2px solid #fc8468;
+        border-bottom: none;
+    }
+    #service-page .page-nav .nav-02.no-active .main-menu .nav-title a:hover {
+        border: 2px solid #8ECBDA;
+        border-bottom: none;
+    }
+    #service-page .page-nav .nav-03.no-active .main-menu .nav-title a:hover {
+        border: 2px solid #9999BD;
+        border-bottom: none;
+    }
+    #service-page main .program .layout-01 {}
+    #service-page main .program .layout-02 {
+        text-align: center;
+    }
+    #service-page main .program .layout-02 p {
+        display: inline-block;
+    }
+    #service-page main .program .layout-05 .img {
+        width: 30%;
+        float: left;
+    }
+    #service-page main .program .layout-05 .txt {
+        width: 70%;
+        float: right;
+        padding-left: 2rem;
+    }
+    #service-page main .program .content .w-pc-80 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #service-page main .program .content .w-pc-65 {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 767.98px) {
+    #service-index section {
+        padding: 10%;
+    }
+    #service-page .page-nav .nav-title {
+        width: 100%;
+    }
+    #service-page section.program h3 {
+        font-size: 1.6rem;
+        padding: 0 0 2rem 0;
+    }
+    #service-page section.program h4 {
+        font-size: 1.2rem;
+        padding: 0 0 1rem 0;
+    }
+    #service-page section.program .head p.sub {
+        font-size: 1rem;
+    }
+    #service-page main .program .layout-03 dl dt {
+        font-size: 1rem;
+    }
+    #service-page main .program .layout-03 dl dd {
+        font-size: 1.6rem;
+    }
+    #service-page main .program .layout-03 p {
+        text-align: start;
+    }
+    #service-page main .program .btn-l {
+        width: 80%;
+    }
+}

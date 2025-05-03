@@ -1,0 +1,414 @@
+/* header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all .4s;
+}
+#header .logo {
+    margin: 30px 0 0 62px
+}
+#header .logo img {
+    width: 240px;
+}
+.showmenu-pc {
+    display: block;
+}
+.showmenu-mobile {
+    display: none;
+}
+#header .closemenu-pc i {
+    margin-left: 30px;
+}
+.menu-pc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000096;
+    padding: 0 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    display: none;
+}
+.menu-pc.show {
+    display: flex;
+}
+.menu-pc ul li {
+    margin-bottom: 20px;
+    color: white;
+}
+.menu-pc ul li ul {
+    margin-top: 20px;
+    font-size: 90%;
+}
+.menu-pc a {
+    color: white;
+}
+.menu-pc .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.menu-pc .search input {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.menu-pc .search button {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    color: white;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all .5s;
+}
+#header .logo {
+    width: 40%;
+    margin: 20px;
+}
+#header .logo {
+    margin: 30px 0 0 62px;
+}
+.showmenu-pc {
+    display: block;
+}
+.showmenu-mobile {
+    display: none;
+}
+#header .menu .showmenu-pc {
+    width: 230px;
+    height: 74px;
+    background-color: black;
+    color: white;
+    padding: 12px 40px 20px 60px;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+    font-size: 17pt;
+    letter-spacing: 3px;
+}
+#header .menu .showmenu-pc i {
+    margin-left: 20px;
+    opacity: 0.6;
+}
+#header .menu-pc .closemenu-pc i {
+    margin-left: 30px;
+    opacity: 0.6;
+}
+#header .menu .showmenu-pc:hover i {
+    margin-left: 30px;
+    transition: all .5s;
+}
+#header .closemenu-pc {
+    width: 230px;
+    height: 74px;
+    background-color: white;
+    color: black;
+    padding: 12px 30px 20px 50px;
+    border-bottom-left-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 17pt;
+    letter-spacing: 3px;
+}
+#header .closemenu-pc:hover {
+    background-color: #BFBFBF;
+    color: black;
+}
+.menu-pc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000e0;
+    padding: 0 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    display: none;
+    letter-spacing: 3px;
+}
+.menu-pc.show {
+    display: flex;
+}
+.menu-pc ul li {
+    margin-bottom: 12px;
+    color: white;
+    font-size: 1.3rem;
+}
+.menu-pc ul li ul.lowerーlayer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.menu-pc ul li ul.lowerーlayer li {
+    margin-top: 12px;
+    font-size: 1rem;
+}
+.menu-pc .div-menu {
+    width: 400px;
+}
+.menu-pc .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+.menu-pc .search input {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.menu-pc .search button {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    color: white;
+}
+.menu-pc .div-menu ul li a:hover {
+    opacity: 0.5;
+    padding-left: 0.5rem;
+}
+.menu-pc .div-menu > ul > li {
+    display: none;
+    transform: translateX(200%);
+}
+.menu-pc.show .div-menu > ul > li {
+    display: block;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(1) {
+    animation: fadeInRight 0.3s ease 0.3s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(2) {
+    animation: fadeInRight 0.3s ease 0.35s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(3) {
+    animation: fadeInRight 0.3s ease 0.4s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(4) {
+    animation: fadeInRight 0.3s ease 0.45s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(5) {
+    animation: fadeInRight 0.3s ease 0.5s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(6) {
+    animation: fadeInRight 0.3s ease 0.55s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(7) {
+    animation: fadeInRight 0.3s ease 0.6s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(8) {
+    animation: fadeInRight 0.3s ease 0.65s 1 forwards;
+}
+.menu-pc.show .div-menu > ul > li:nth-child(9) {
+    animation: fadeInRight 0.3s ease 0.7s 1 forwards;
+}
+@keyframes slideup {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+@keyframes slideupSecond {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(calc(-100% - 30%));
+    }
+}
+@keyframes slideupThird {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(calc(-100% - 120%));
+    }
+}
+@keyframes slideupFourth {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(calc(-100% - 35%));
+    }
+}
+@keyframes slideupFifth {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(1em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@media (max-width: 767.98px) {
+    body {
+        /* background: url('../images/bg_mobile.png');
+        background-size: contain;
+    background-position-y: -10px;
+    background-repeat: repeat-y; */
+    }
+    #header .logo {
+        width: 45%;
+        margin: 20px;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .menu-pc {
+        padding: 0 50px;
+    }
+    .menu-pc div > ul {
+        padding-left: 0px;
+    }
+    .showmenu-pc {
+        display: none;
+    }
+    .showmenu-mobile {
+        display: block;
+    }
+    .close-showmenu-mobile {
+        display: block;
+        position: absolute;
+        top: 9px;
+        right: 20px;
+    }
+    .closemenu-pc {
+        display: none;
+    }
+    .div-menu {
+        width: 100%;
+    }
+    .menu-pc .div-menu {
+        width: 100%;
+    }
+    .menu-pc ul li {
+    font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+    .menu-pc .div-menu > ul > li {
+        display: none;
+        transform: translateX(-100%);
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(1) {
+        animation: fadeInLeft 0.3s ease 0.3s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(2) {
+        animation: fadeInLeft 0.3s ease 0.35s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(3) {
+        animation: fadeInLeft 0.3s ease 0.4s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(4) {
+        animation: fadeInLeft 0.3s ease 0.45s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(5) {
+        animation: fadeInLeft 0.3s ease 0.5s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(6) {
+        animation: fadeInLeft 0.3s ease 0.55s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(7) {
+        animation: fadeInLeft 0.3s ease 0.6s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(8) {
+        animation: fadeInLeft 0.3s ease 0.65s 1 forwards;
+    }
+    .menu-pc.show .div-menu > ul > li:nth-child(9) {
+        animation: fadeInLeft 0.3s ease 0.7s 1 forwards;
+    }
+    .openbtn {
+        position: relative; /*ボタン内側の基点となるためrelativeを指定*/
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .openbtn span {
+        display: inline-block;
+        transition: all .4s; /*アニメーションの設定*/
+        position: absolute;
+        left: 14px;
+        height: 3px;
+        border-radius: 2px;
+        background: black;
+        width: 50%;
+    }
+    .openbtn span:nth-child(2) {
+        width: 30%;
+    }
+    .openbtn.white span {
+        background: white;
+    }
+    .openbtn span:nth-of-type(1) {
+        top: 15px;
+    }
+    .openbtn span:nth-of-type(2) {
+        top: 23px;
+    }
+    .openbtn span:nth-of-type(3) {
+        top: 31px;
+    }
+    .openbtn.active span:nth-of-type(1) {
+        top: 18px;
+        left: 18px;
+        transform: translateY(6px) rotate(-45deg);
+        width: 50%;
+    }
+    .openbtn.active span:nth-of-type(2) {
+        opacity: 0; /*真ん中の線は透過*/
+    }
+    .openbtn.active span:nth-of-type(3) {
+        top: 30px;
+        left: 18px;
+        transform: translateY(-6px) rotate(45deg);
+        width: 50%;
+    }
+}

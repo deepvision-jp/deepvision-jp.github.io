@@ -1,0 +1,120 @@
+main, footer{z-index: 99; position: relative;}
+main{
+  background-color: #ffffff9c;
+}
+#overlay{
+    position:fixed;
+    z-index:99999;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:white;
+    transition: 1s 0.4s;
+  }
+  .loading{
+      position: relative;
+      width: 30%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 100%;
+
+  }
+  #progress{
+    height:1px;
+    background: black;
+    position:absolute;
+    width:0;
+    top:50%;
+    transition: 1.5s;
+  }
+  #progNumber{
+    font-size: 45px;
+    letter-spacing: 3px;
+    position:absolute;
+    top:45%;
+    margin-top:-40px;
+    width:100%;
+    text-align:center;
+    color: black;
+  }
+  #progstat{
+    font-size:0.7em;
+    letter-spacing: 3px;
+    position:absolute;
+    top:56%;
+    margin-top:-40px;
+    width:100%;
+    text-align:center;
+    color: black;
+  }
+  .effect{position: fixed; top: 0px; left: 0; height:  calc(100% + 200px)  ; z-index: 9; overflow: hidden; }
+  .effect .effect-item{position: relative;width: 100vw;height: 240vh;}
+  .effect .effect-item img{
+      position: absolute;width: 20%;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
+      transform: translateY(100%);
+      transition: all .4s
+  }
+  /* .effect .effect-item img.hide{display: none;} */
+  .effect .effect-item img:first-child{ width: 18.5%;  top: 0;left: 0; animation-name: slideup; animation-duration: 20s;}
+  .effect .effect-item img:nth-child(2){top: 18%; left: 20%; animation-name: slideupSecond; animation-duration: 22s;}
+  .effect .effect-item img:nth-child(3){top: 70%;left: 35%; animation-name: slideupThird; animation-duration: 24s; }
+  .effect .effect-item img:nth-child(4){top: 25%;right: 22%; animation-name: slideupFourth; animation-duration: 17s;}
+  .effect .effect-item img:nth-child(5){top: 25%;right: 15%; animation-name: slideupFifth; animation-duration: 26s;}
+  .effect .effect-item img:last-child{top: 0;right:  0; animation-name: slideupSix; animation-duration: 27s;}
+  @keyframes slideup {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(-100%);}
+}
+
+@keyframes slideupSecond {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(calc(-100% - 30%));}
+}
+
+@keyframes slideupThird {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(calc(-100% - 120%));}
+}
+
+@keyframes slideupFourth {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(calc(-100% - 50%));}
+}
+
+@keyframes slideupFifth {
+  0% {transform: translateY(100%);}
+  100% {transform: translateY(calc(-100% - 35%));}
+}
+
+@keyframes slideupSix {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(-100%);}
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(1em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+  
