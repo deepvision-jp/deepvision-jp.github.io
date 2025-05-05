@@ -1,8 +1,12 @@
-.effect{top: 0; height: 100%;}
-.effect .effect-item{height: 100vh;}
-.effect .effect-item img:first-child{top: 12%; height: 290px; width: 18%; left: -13px;}
-.effect .effect-item img:nth-child(2){top: 32%;height: 320px; width: 25%; left: 15%;}
-.effect .effect-item img:nth-child(3){top: 56%;height: 210px; width:  18%}
-.effect .effect-item img:nth-child(4) {top: 5%; height: 330px; width: 25%; right: 18%;}
-.effect .effect-item img:nth-child(5) {top: 34%; height: 330px; width: 25%; right: 10%;}
-.effect .effect-item img:last-child{top: 11%; height: 350px; width: 22%; right: -7%;} 
+@media (max-width: 576px) {
+    .effect{top: 0; height: 100%;}
+    .effect .effect-item{height: 100vh;}
+    .effect .effect-item img:first-child{top: 12%; height: 290px; width: 18%; left: -13px;}
+    .effect .effect-item img:nth-child(2){top: 32%;height: 320px; width: 25%; left: 15%;}
+    .effect .effect-item img:nth-child(3){top: 56%;height: 210px; width:  18%}
+    .effect .effect-item img:nth-child(4) {top: 5%; height: 330px; width: 25%; right: 18%;}
+    .effect .effect-item img:nth-child(5) {top: 34%; height: 330px; width: 25%; right: 10%;}
+    .effect .effect-item img:last-child{top: 11%; height: 350px; width: 22%; right: -7%;} 
+    
+}
+
